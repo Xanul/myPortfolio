@@ -8,6 +8,7 @@
     <!-- Unicons -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!-- Swiper CSS -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/styles.css">
@@ -79,10 +80,10 @@
                     <div class="home__img">
                         <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/2000/svg">
                             <mask id="mask0" mask-type="alpha">
-                                <path fill="#000000" d="M64.2,-35.8C72.7,-22.2,62,3.7,48.1,20.2C34.2,36.8,17.1,44,-0.1,44C-17.4,44.1,-34.7,37.1,-46.3,21.9C-57.8,6.7,-63.5,-16.6,-54.8,-30.2C-46.1,-43.8,-23.1,-47.7,2.4,-49C27.8,-50.4,55.6,-49.3,64.2,-35.8Z" transform="translate(100 100)" />
+                                <path  d="M64.2,-35.8C72.7,-22.2,62,3.7,48.1,20.2C34.2,36.8,17.1,44,-0.1,44C-17.4,44.1,-34.7,37.1,-46.3,21.9C-57.8,6.7,-63.5,-16.6,-54.8,-30.2C-46.1,-43.8,-23.1,-47.7,2.4,-49C27.8,-50.4,55.6,-49.3,64.2,-35.8Z" transform="translate(100 100)" />
                             </mask>>
                             <g mask="url(#mask0)">
-                                <path fill="#000000" d="M64.2,-35.8C72.7,-22.2,62,3.7,48.1,20.2C34.2,36.8,17.1,44,-0.1,44C-17.4,44.1,-34.7,37.1,-46.3,21.9C-57.8,6.7,-63.5,-16.6,-54.8,-30.2C-46.1,-43.8,-23.1,-47.7,2.4,-49C27.8,-50.4,55.6,-49.3,64.2,-35.8Z" transform="translate(100 100)" />
+                                <path  d="M64.2,-35.8C72.7,-22.2,62,3.7,48.1,20.2C34.2,36.8,17.1,44,-0.1,44C-17.4,44.1,-34.7,37.1,-46.3,21.9C-57.8,6.7,-63.5,-16.6,-54.8,-30.2C-46.1,-43.8,-23.1,-47.7,2.4,-49C27.8,-50.4,55.6,-49.3,64.2,-35.8Z" transform="translate(100 100)" />
                                 <!-- <img class="home__blob-img" xlink:href="./assets/img/profile.jpg"> -->
                             </g>
                           </svg>
@@ -452,13 +453,72 @@
             </div>
         </section>
 
+        <!-- Portfolio -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <!-- Portfolio 1-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/pokedexProject.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Pokedex</h3>
+                            <p class="portfolio__description">Website designed used html css and javascript</p>
+                            <a href="https://xanul.github.io/pokedexLaunchX/" class="button button--flex button--small portfolio__button" target="_blank">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio 2-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/project2.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Vacunacion</h3>
+                            <p class="portfolio__description">Website designed used html css and javascript</p>
+                            <a href="https://xanul.github.io/vaccinationPage/#" class="button button--flex button--small portfolio__button" target="_blank">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio 3-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/project3.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Pasteleria</h3>
+                            <p class="portfolio__description">Website designed used html css and javascript</p>
+                            <a href="https://vue-bakery.netlify.app/#/" class="button button--flex button--small portfolio__button" target="_blank">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
     </main>
     <!-- Footer -->
 
     <!-- Scroll Top -->
 
     <!-- Swiper JS -->
-
+    <script src="./assets/js/swiper-bundle.min.js"></script>i
     <!-- Main JS -->
     <script src="./assets/js/main.js"></script>
 
