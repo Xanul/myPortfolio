@@ -493,11 +493,11 @@ img {
 }
 
 .skills__html {
-    width: 90%;
+    width: 70%;
 }
 
 .skills__css {
-    width: 80%;
+    width: 70%;
 }
 
 .skills__js {
@@ -505,7 +505,7 @@ img {
 }
 
 .skills__react {
-    width: 60%;
+    width: 40%;
 }
 
 .skills__node {
@@ -529,7 +529,7 @@ img {
 }
 
 .skills__photoshop {
-    width: 50%;
+    width: 70%;
 }
 
 .skills__close .skills__list {
@@ -631,6 +631,8 @@ img {
     width: 265px;
     border-radius: .5rem;
     justify-self: center;
+    box-shadow: 0 -1px 4px rgba(0,0,0,.15);
+    
 }
 
 .portfolio__title {
