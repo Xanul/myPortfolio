@@ -79,6 +79,10 @@ body.dark-theme {
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
 
+#clickableDownload {
+    color: red;
+}
+
 /* Button light/dark */
 .nav__btns {
     display: flex;
@@ -189,7 +193,6 @@ img {
 .nav__logo, .nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
-
 }
 
 .nav__logo:hover {
@@ -582,7 +585,7 @@ img {
 .qualification__subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-0-50);
 }
 
 .qualification__calendar {
@@ -1030,6 +1033,10 @@ img {
     .main,
     .footer__container{
         padding: 0;
+    }
+
+    .nav__logo {
+        font-size: 1.5rem;
     }
 
     .home__img {
