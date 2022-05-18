@@ -496,19 +496,19 @@ img {
 }
 
 .skills__html {
-    width: 70%;
+    width: 80%;
 }
 
 .skills__css {
-    width: 70%;
+    width: 80%;
 }
 
 .skills__js {
-    width: 60%;
+    width: 75%;
 }
 
 .skills__react {
-    width: 40%;
+    width: 50%;
 }
 
 .skills__node {
@@ -528,7 +528,7 @@ img {
 }
 
 .skills__figma {
-    width: 40%;
+    width: 50%;
 }
 
 .skills__photoshop {
