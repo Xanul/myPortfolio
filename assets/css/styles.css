@@ -588,6 +588,10 @@ img {
     margin-bottom: var(--mb-0-50);
 }
 
+.qualification__certifLink {
+    color: var(--first-color);
+}
+
 .qualification__calendar {
     font-size: var(--smaller-font-size);
     color: var(--text-color-lighter);
